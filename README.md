@@ -1,68 +1,68 @@
-🩺 <span style="color:#d9534f;">Melanoma Detection – Image Processing Pipeline</span>
+<b>🩺 <span style="color:#d9534f;">Melanoma Detection – Image Processing Pipeline</span></b>
 
 A professional image processing pipeline for dermatological lesion analysis and melanoma detection.
-
-📋 Project Overview
+***
+<b>📋 Project Overview</b>
 
 This project implements an automated image preprocessing and segmentation workflow for skin lesion analysis using Python, OpenCV, and scikit-image.
 It focuses on enhancing dermatological images, removing artifacts, and generating accurate lesion masks.
+***
+<b>🚀 Features</b>
 
-🚀 Features
+<i>1.Automated dermatological image preprocessing</i>
 
-Automated dermatological image preprocessing
+<i>2.Hair detection & removal</i>
 
-Hair detection & removal
+<i>3.Noise reduction using median filtering</i>
 
-Noise reduction using median filtering
+<i>4.Threshold-based segmentation</i>
 
-Threshold-based segmentation
+<i>5.Morphological cleaning & gap filling<i>
 
-Morphological cleaning & gap filling
+<i>6.RGB channel analysis + histograms</i>
 
-RGB channel analysis + histograms
+<i>7.Final binary mask generation</i>
 
-Final binary mask generation
-
-🔬 Image Processing Pipeline
+<b>🔬 Image Processing Pipeline</b>
 1️⃣ Color Processing
 
-RGB channel separation
+<i>RGB channel separation</i>
 
-Convert to grayscale
+<i>Convert to grayscale</i>
 
 2️⃣ Preprocessing
 
-Median filtering (5px disk)
+<i>Median filtering (5px disk)</i>
 
-Hair removal using erosion (elliptical kernel)
+<i>Hair removal using erosion (elliptical kernel)</i>
 
 3️⃣ Segmentation
 
-Binary thresholding at 127
+<i>Binary thresholding at 127</i>
 
 4️⃣ Morphological Operations
 
-Opening (5×5 ellipse)
+<i>Opening (5×5 ellipse)</i>
 
-Closing (15×15 ellipse)
+<i>Closing (15×15 ellipse)</i>
 
-Dilation (5×5 ellipse)
+<i>Dilation (5×5 ellipse)</i>
 
-Gap Filling (20×20 ellipse)
+<i>Gap Filling (20×20 ellipse)</i>
 
 5️⃣ Border Cleaning
 
-100px border removal to eliminate edge noise
+<i>100px border removal to eliminate edge noise</i>
 
 6️⃣ Output Generation
 
-Final segmented mask
+<i>Final segmented mask</i>
 
-RGB histograms
+<i>RGB histograms</i>
 
-Intermediate visual outputs
-
-🛠️ Technologies Used
+<i>Intermediate visual outputs</i>
+***
+<b>🛠️ Technologies Used</b>
 <table style="border-collapse: collapse; width:100%;"> <tr style="background:#f2f2f2;"> <th style="padding:8px; border:1px solid #ddd;">Technology</th> <th style="padding:8px; border:1px solid #ddd;">Purpose</th> </tr> <tr> <td style="padding:8px; border:1px solid #ddd;">Python</td> <td style="padding:8px; border:1px solid #ddd;">Core programming language</td> </tr> <tr> <td style="padding:8px; border:1px solid #ddd;">OpenCV</td> <td style="padding:8px; border:1px solid #ddd;">Image processing operations</td> </tr> <tr> <td style="padding:8px; border:1px solid #ddd;">scikit-image</td> <td style="padding:8px; border:1px solid #ddd;">Segmentation & filtering tools</td> </tr> <tr> <td style="padding:8px; border:1px solid #ddd;">NumPy</td> <td style="padding:8px; border:1px solid #ddd;">Array operations</td> </tr> <tr> <td style="padding:8px; border:1px solid #ddd;">Matplotlib</td> <td style="padding:8px; border:1px solid #ddd;">Histogram visualization</td> </tr> </table>
 📁 Project Structure
 melanoma-detection/
