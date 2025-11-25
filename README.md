@@ -71,7 +71,9 @@ It focuses on enhancing dermatological images, removing artifacts, and generatin
 <b>🛠️ Technologies Used</b>
 <table style="border-collapse: collapse; width:100%;"> <tr style="background:#f2f2f2;"> <th style="padding:8px; border:1px solid #ddd;">Technology</th> <th style="padding:8px; border:1px solid #ddd;">Purpose</th> </tr> <tr> <td style="padding:8px; border:1px solid #ddd;">Python</td> <td style="padding:8px; border:1px solid #ddd;">Core programming language</td> </tr> <tr> <td style="padding:8px; border:1px solid #ddd;">OpenCV</td> <td style="padding:8px; border:1px solid #ddd;">Image processing operations</td> </tr> <tr> <td style="padding:8px; border:1px solid #ddd;">scikit-image</td> <td style="padding:8px; border:1px solid #ddd;">Segmentation & filtering tools</td> </tr> <tr> <td style="padding:8px; border:1px solid #ddd;">NumPy</td> <td style="padding:8px; border:1px solid #ddd;">Array operations</td> </tr> <tr> <td style="padding:8px; border:1px solid #ddd;">Matplotlib</td> <td style="padding:8px; border:1px solid #ddd;">Histogram visualization</td> </tr> </table>
 </br>
+
 ***
+
 📁 Project Structure
 melanoma-detection/
 │
