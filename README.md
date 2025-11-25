@@ -82,7 +82,9 @@ melanoma-detection/
 ├── requirements.txt           # Dependencies
 └── README.md                  # Documentation
 </br>
+
 ***
+
 <b>⚙️ How to Use</b>
 </br>
 1️⃣ Install Dependencies
@@ -97,6 +99,7 @@ for image_file in image_files:
     image_path = os.path.join(folder_path, image_file)
     save_path = os.path.join(output_folder, f"segmented_{image_file}")
     process_image(image_path, save_path)
+    
 ***
 <b>⚙️ Configuration Parameters</b>
 <table style="border-collapse:collapse; width:100%;"> <tr style="background:#f2f2f2;"> <th style="padding:8px; border:1px solid #ddd;">Operation</th> <th style="padding:8px; border:1px solid #ddd;">Parameter</th> </tr> <tr><td style="padding:8px; border:1px solid #ddd;">Median Filter</td><td style="padding:8px; border:1px solid #ddd;">5px disk</td></tr> <tr><td style="padding:8px; border:1px solid #ddd;">Erosion</td><td style="padding:8px; border:1px solid #ddd;">5×5 ellipse, 2 iterations</td></tr> <tr><td style="padding:8px; border:1px solid #ddd;">Threshold</td><td style="padding:8px; border:1px solid #ddd;">127</td></tr> <tr><td style="padding:8px; border:1px solid #ddd;">Opening</td><td style="padding:8px; border:1px solid #ddd;">5×5 ellipse</td></tr> <tr><td style="padding:8px; border:1px solid #ddd;">Closing</td><td style="padding:8px; border:1px solid #ddd;">15×15 ellipse</td></tr> <tr><td style="padding:8px; border:1px solid #ddd;">Dilation</td><td style="padding:8px; border:1px solid #ddd;">5×5 ellipse</td></tr> <tr><td style="padding:8px; border:1px solid #ddd;">Gap Filling</td><td style="padding:8px; border:1px solid #ddd;">20×20 ellipse</td></tr> <tr><td style="padding:8px; border:1px solid #ddd;">Border Mask</td><td style="padding:8px; border:1px solid #ddd;">100px</td></tr> </table><br>
