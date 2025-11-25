@@ -74,15 +74,11 @@ It focuses on enhancing dermatological images, removing artifacts, and generatin
 
 ***
 
-📁 Project Structure
-melanoma-detection/
-│
-├── DIP project.ipynb          # Main notebook
-├── data/
-│   ├── colored/               # Input skin images
-│   └── segmented/             # Output processed masks
-├── requirements.txt           # Dependencies
-└── README.md                  # Documentation
+<b>📁 Project Structure</b>
+
+<img width="126" height="284" alt="image" src="https://github.com/user-attachments/assets/79b8374e-dc89-4af0-b3c6-c0a19ff94e25" />
+
+
 </br>
 
 ***
