@@ -22,7 +22,7 @@ It focuses on enhancing dermatological images, removing artifacts, and generatin
 <i>6.RGB channel analysis + histograms</i>
 
 <i>7.Final binary mask generation</i>
-
+***
 <b>🔬 Image Processing Pipeline</b>
 1️⃣ Color Processing
 
