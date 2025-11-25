@@ -2,6 +2,9 @@
 
 A professional image processing pipeline for dermatological lesion analysis and melanoma detection.
 ***
+📂 Table of Contents
+<ul> <li><a href="#overview">Project Overview</a></li> <li><a href="#features">Features</a></li> <li><a href="#pipeline">Image Processing Pipeline</a></li> <li><a href="#technologies">Technologies Used</a></li> <li><a href="#structure">Project Structure</a></li> <li><a href="#usage">How to Use</a></li> <li><a href="#parameters">Configuration Parameters</a></li> <li><a href="#disclaimer">Medical Disclaimer</a></li> <li><a href="#contributing">Contributing</a></li> <li><a href="#developer">Developer</a></li> </ul>
+***
 <b>📋 Project Overview</b>
 
 This project implements an automated image preprocessing and segmentation workflow for skin lesion analysis using Python, OpenCV, and scikit-image.
